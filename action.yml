@@ -1,0 +1,7 @@
+name: "Angular run Karma tests"
+description: "Github action for running karma tests."
+author: "Ahmed Rizwan (https://ahmedrizwan.com)"
+branding:
+  icon: "package"
+  color: "red"
+  label: "Angular run Karma tests"
