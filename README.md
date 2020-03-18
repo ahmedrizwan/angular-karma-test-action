@@ -1,7 +1,12 @@
 # angular-karma-test-action
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.25.
+Github action for running Angular Karma tests.
 
-Based on the starter project.
+### Usage
 
-Workflow triggers karma tests on pull requests.
+```yml
+steps:
+  - uses: actions/checkout@v2
+  - name: Run Karma Tests
+    uses: ahmedrizwan/angular-karma-test-action
+```
