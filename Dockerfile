@@ -1,4 +1,4 @@
-FROM markadams/chromium-xvfb-js
+FROM selenium/node-chrome
 
 LABEL "com.github.actions.name"="angular-karma-test-action"
 LABEL "com.github.actions.description"="Run Angular Karma Tests"
