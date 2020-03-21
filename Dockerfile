@@ -11,5 +11,4 @@ LABEL "homepage"="https://github.com/ahmedrizwan/angular-karma-test-action"
 LABEL "maintainer"="Ahmed Rizwan <ahmedrizwan@outlook.com>"
 
 ADD entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
