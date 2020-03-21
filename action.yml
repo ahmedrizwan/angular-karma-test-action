@@ -6,5 +6,5 @@ branding:
   color: "red"
   label: "Angular run Karma tests"
 runs:
-  using: "node12"
-  main: "src/index.html"
+  using: docker
+  image: Dockerfile
