@@ -7,4 +7,4 @@ branding:
   label: "Angular run Karma tests"
 runs:
   using: "node12"
-  main: "dist/index.js"
+  main: "src/index.html"
