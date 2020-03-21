@@ -8,4 +8,4 @@ echo "\n**Installing Dependencies**\n"
 npm install
 
 echo "\n**Running Karma Tests**\n"
-npm run test --browsers ChromeHeadless --watch=false
+ng test --browsers ChromeHeadless --watch=false
